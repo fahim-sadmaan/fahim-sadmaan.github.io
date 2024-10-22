@@ -146,6 +146,7 @@ ul a {
 #shutters {
     height: 100vh;
     min-height: 735px;
+    max-height: 750px;
 }
 
 .shutters_wrapper {
