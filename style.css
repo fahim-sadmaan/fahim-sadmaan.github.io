@@ -318,6 +318,11 @@ footer {
     gap: 26px;
 }
 
+.social_icons a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .social_icons i {
     color: black;
     font-size: 26px;
@@ -358,13 +363,13 @@ footer p {
                                                         /* gallery page start */
 
 /* gallery hero section start */
-#gallery_hero_section {
+#gallery_hero_section, #about_hero_section {
     height: 250px;
     background-color: #1E181C;
     color: white;
 }
 
-.gallery_hero_wrapper {
+.gallery_hero_wrapper, .about_hero_wrapper {
     height: 250px;
     display: flex;
     gap: 35px;
@@ -401,7 +406,7 @@ footer p {
     background-color: white;
 }
 
-.gallery_hero_wrapper h2 {
+.gallery_hero_wrapper h2, .about_hero_wrapper h2 {
     font-family: "Italiana", sans-serif;
     font-size: 75px;
     font-weight: 400;
@@ -481,3 +486,38 @@ footer p {
     z-index: 9999;
     cursor: zoom-in;
 }
+
+@keyframes imageRe {
+    
+}
+
+/* gallery section end */
+
+/* about section start */
+
+#about_me_section {
+    height: calc(100vh - 60px);
+    min-height: 580px;
+}
+
+.about_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.about_image > img {
+    width: 400px;
+}
+
+.about_details {
+    font-family: "Poppins", system-ui;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.about_details > h2 {
+    font-size: 36px;
+}
+
+/* about section end */
